@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTIC - ICC SIAFOUMOU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <div class="logo-icon">MT</div>
+                <div class="logo-text">MTIC</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#departements">Départements</a></li>
+                <li><a href="#video">Vidéo</a></li>
+                <li><a href="#inscription">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="church-logo">
+                    <!-- logo-circle -->
+                    <div class="">
+                        <div class="cross-icon"><img src="logo-icc_Gris-avec-nom.png" alt="" width="150"></div>
+                    </div>
+                    <h2 class="church-name">CONGO EGLISE LOCALE DE POINTE-NOIRE SIAFOUMOU</h2>
+                </div>
+                <h1>MTIC</h1>
+                <p>Ministère des Technologies de l'Information et de la Communication<br>
+                    Bienvenue</p>
+                <a href="#apropos" class="cta-button">Découvrir Notre Mission</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="section section-white">
+        <div class="container">
+            <h2 class="section-title fade-in">À Propos du MTIC</h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>Le Ministère des Technologies de l'Information et de la Communication (MTIC) de l'église ICC
+                        SIAFOUMOU est dédié à l'excellence dans le service de Dieu à travers les technologies modernes.
+                    </p>
+
+                    <p>Notre mission est de soutenir la vision de l'église en utilisant les outils technologiques pour
+                        propager l'Évangile, former les membres et créer une expérience spirituelle enrichissante pour
+                        toute la communauté.</p>
+
+                    <p>Nous croyons que la technologie, utilisée avec sagesse et dans l'esprit du Christ, peut
+                        transformer des vies et rapprocher les âmes de Dieu.</p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder">
+                        📱 Technologie au Service de Dieu 💻
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departements" class="section section-light">
+        <div class="container">
+            <h2 class="section-title fade-in">Nos Départements</h2>
+            <div class="departments">
+                <div class="department-card fade-in">
+                    <div class="department-icon">🎬</div>
+                    <h3>Audiovisuel</h3>
+                    <p>Responsable de la captation, montage et diffusion des activités. Nous gérons l'éclairage, le son
+                        et la vidéo pour créer une atmosphère propice à l'adoration et garantir une qualité technique
+                        optimale lors de chaque événement.</p>
+                </div>
+                <div class="department-card fade-in">
+                    <div class="department-icon">📢</div>
+                    <h3>Communication</h3>
+                    <p>Chargé de la stratégie de communication digitale, gestion des réseaux sociaux, création de
+                        contenus visuels et rédactionnels. Nous veillons à maintenir une image cohérente et attractive
+                        de l'église sur tous les canaux de communication.</p>
+                </div>
+                <div class="department-card fade-in">
+                    <div class="department-icon">💻</div>
+                    <h3>Informatique</h3>
+                    <p>Développement et maintenance des systèmes informatiques, gestion du site web, applications
+                        mobiles, bases de données des membres et support technique. Nous assurons la modernisation
+                        technologique de l'église.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+   <section id="video" class="section section-white">
+    <div class="container">
+        <h2 class="section-title fade-in">Vidéo de Présentation</h2>
+        <div class="video-container fade-in">
+            <div class="video-responsive">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rc6poTehG7c" title="Vidéo de présentation MTIC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact/Registration Section -->
+    <section id="inscription" class="section section-light">
+        <div class="container">
+            <h2 class="section-title fade-in">Rejoignez Notre Équipe</h2>
+            <form class="contact-form fade-in" id="registrationForm">
+                <!-- Informations Personnelles -->
+                <h3
+                    style="color: #667eea; margin-bottom: 20px; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">
+                    📝 Informations Personnelles</h3>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="nom">Nom Complet *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="genre">Genre *</label>
+                        <select id="genre" name="genre" required>
+                            <option value="">Sélectionnez</option>
+                            <option value="Masculin">Masculin</option>
+                            <option value="Féminin">Féminin</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="dateNaissance">Date de Naissance *</label>
+                        <input type="date" id="dateNaissance" name="dateNaissance" required>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="nationalite">Nationalité *</label>
+                        <select id="nationalite" name="nationalite" required>
+                            <option value="">Sélectionnez votre nationalité</option>
+                            <option value="Congolaise">Congolaise (République du Congo)</option>
+                            <option value="Congolaise RDC">Congolaise (RDC)</option>
+                            <option value="Camerounaise">Camerounaise</option>
+                            <option value="Gabonaise">Gabonaise</option>
+                            <option value="Centrafricaine">Centrafricaine</option>
+                            <option value="Tchadienne">Tchadienne</option>
+                            <option value="Français">Française</option>
+                            <option value="Malienne">Malienne</option>
+                            <option value="Sénégalaise">Sénégalaise</option>
+                            <option value="Ivoirienne">Ivoirienne</option>
+                            <option value="Burkinabè">Burkinabè</option>
+                            <option value="Béninoise">Béninoise</option>
+                            <option value="Togolaise">Togolaise</option>
+                            <option value="Ghanéenne">Ghanéenne</option>
+                            <option value="Nigériane">Nigériane</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="quartier">Quartier de résidence</label>
+                    <input type="text" id="quartier" name="quartier" placeholder="Ex: Mpila, Tié-tié, Loandjili...">
+                </div>
+
+                <!-- Situation Personnelle -->
+                <h3
+                    style="color: #667eea; margin: 30px 0 20px 0; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">
+                    👥 Situation Personnelle</h3>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="situationMatrimoniale">Situation Matrimoniale *</label>
+                        <select id="situationMatrimoniale" name="situationMatrimoniale" required>
+                            <option value="">Sélectionnez</option>
+                            <option value="Célibataire">Célibataire</option>
+                            <option value="Fiancé(e)">Fiancé(e)</option>
+                            <option value="Marié(e)">Marié(e)</option>
+                            <option value="Concubinage">Concubinage</option>
+                        </select>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="niveauEtudes">Niveau d'Études *</label>
+                        <select id="niveauEtudes" name="niveauEtudes" required>
+                            <option value="">Sélectionnez</option>
+                            <option value="Primaire">Primaire</option>
+                            <option value="Collège">Collège</option>
+                            <option value="Lycée">Lycée</option>
+                            <option value="Bac+2">Bac+2</option>
+                            <option value="Bac+3">Bac+3 (Licence)</option>
+                            <option value="Bac+4">Bac+4 (Maîtrise)</option>
+                            <option value="Bac+5">Bac+5 (Master)</option>
+                            <option value="Bac+8">Bac+8 (Doctorat)</option>
+                            <option value="Formation professionnelle">Formation professionnelle</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="profession">Profession ou Activité *</label>
+                    <input type="text" id="profession" name="profession"
+                        placeholder="Ex: Étudiant, Ingénieur, Commerçant..." required>
+                </div>
+
+                <!-- Informations Spirituelles -->
+                <h3
+                    style="color: #667eea; margin: 30px 0 20px 0; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">
+                    ✝️ Informations Spirituelles</h3>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="baptise" name="baptise">
+                            <label for="baptise" class="checkbox-label">Baptisé(e) par immersion</label>
+                        </div>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="formationPCNC">Formation PCNC</label>
+                        <select id="formationPCNC" name="formationPCNC">
+                            <option value="">Aucune formation</option>
+                            <option value="PCNC 001">PCNC 001 - Bienvenue Dana Le Royaume</option>
+                            <option value="PCNC 101">PCNC 101 - Fondements du Royaume</option>
+                            <option value="PCNC 201">PCNC 201 - 03 Piliers Majeurs de la maturité Spirituelle</option>
+                            <option value="PCNC 301">PCNC 301 - Découvrir son Appel et Accomplir sa Destinée</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Candidature MTIC -->
+                <h3
+                    style="color: #667eea; margin: 30px 0 20px 0; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">
+                    💻 Candidature MTIC</h3>
+
+                <div class="form-group">
+                    <label for="departement">Département d'intérêt *</label>
+                    <select id="departement" name="departement" required>
+                        <option value="">Sélectionnez un département</option>
+                        <option value="audiovisuel">Audiovisuel</option>
+                        <option value="communication">Communication</option>
+                        <option value="informatique">Informatique</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">Expérience/Compétences</label>
+                    <textarea id="experience" name="experience" rows="4"
+                        placeholder="Décrivez votre expérience ou vos compétences dans le domaine choisi..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="motivation">Motivation</label>
+                    <textarea id="motivation" name="motivation" rows="4"
+                        placeholder="Pourquoi souhaitez-vous rejoindre le MTIC ?"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Envoyer ma Candidature</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Église ICC SIAFOUMOU</p>
+                    <p>Email: snd.iccpn@gmail.com</p>
+                    <p>Téléphone: +242 XX XX XX XX</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horaires</h3>
+                    <p>Samedi: 17h00 - 20h00</p>
+                    <p>Dimanche: 8h00 - 15h00</p>
+                    <p>Jeudi: 18h00 - 20h00</p>
+                    <p>Vendredi: 17h00 - 21h00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">YouTube</a></p>
+                    <p><a href="#">Instagram</a></p>
+                </div>
+            </div>
+            <p>&copy; 2025 MTIC - ICC SIAFOUMOU. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div id="notification" class="notification">
+        ✅ Votre candidature a été envoyée avec succès !
+    </div>
+
+   <script>
+    // Smooth scrolling for navigation links (inchangé)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Intersection Observer for fade-in animations (inchangé)
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, observerOptions);
+    document.querySelectorAll('.fade-in').forEach(el => {
+        observer.observe(el);
+    });
+
+    // Header scroll effect (inchangé)
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        if (window.scrollY > 100) {
+            header.style.background = 'rgba(255, 255, 255, 0.98)';
+            header.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.2)';
+        } else {
+            header.style.background = 'rgba(255, 255, 255, 0.95)';
+            header.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.1)';
+        }
+    });
+
+   
+
+    // --- BLOC DE SOUMISSION DU FORMULAIRE ---
+    document.getElementById('registrationForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const submitBtn = this.querySelector('.submit-btn');
+        const originalText = submitBtn.textContent;
+
+        // **ÉTAPE 1 : On capture les données PENDANT que les champs sont encore remplis.**
+        const formData = {
+            nom: this.nom.value,
+            genre: this.genre.value,
+            dateNaissance: this.dateNaissance.value,
+            nationalite: this.nationalite.value,
+            email: this.email.value,
+            telephone: this.telephone.value,
+            quartier: this.quartier.value,
+            situationMatrimoniale: this.situationMatrimoniale.value,
+            niveauEtudes: this.niveauEtudes.value,
+            profession: this.profession.value,
+            baptise: this.baptise.checked ? 'Oui' : 'Non',
+            formationPCNC: this.formationPCNC.value || 'Aucune',
+            departement: this.departement.value,
+            experience: this.experience.value,
+            motivation: this.motivation.value
+        };
+
+        // On prépare le contenu de l'email avec les données capturées
+        const emailMessage = `
+            ═══════════════════════════════════════
+            📝 INFORMATIONS PERSONNELLES
+            ═══════════════════════════════════════
+            Nom complet: ${formData.nom}
+            Genre: ${formData.genre}
+            Date de naissance: ${formData.dateNaissance}
+            Nationalité: ${formData.nationalite}
+            Email: ${formData.email}
+            Téléphone: ${formData.telephone}
+            Quartier: ${formData.quartier}
+
+            ═══════════════════════════════════════
+            👥 SITUATION PERSONNELLE
+            ═══════════════════════════════════════
+            Situation matrimoniale: ${formData.situationMatrimoniale}
+            Niveau d'études: ${formData.niveauEtudes}
+            Profession: ${formData.profession}
+
+            ═══════════════════════════════════════
+            ✝️ INFORMATIONS SPIRITUELLES
+            ═══════════════════════════════════════
+            Baptisé par immersion: ${formData.baptise}
+            Formation PCNC: ${formData.formationPCNC}
+
+            ═══════════════════════════════════════
+            💻 CANDIDATURE MTIC
+            ═══════════════════════════════════════
+            Département choisi: ${formData.departement}
+
+            Expérience/Compétences:
+            ${formData.experience || 'Non renseigné'}
+
+            Motivation:
+            ${formData.motivation || 'Non renseigné'}
+        `;
+
+        // **ÉTAPE 2 : On met à jour l'interface pour montrer que le traitement est en cours.**
+        submitBtn.textContent = 'Envoi en cours...';
+        submitBtn.disabled = true;
+
+        // **ÉTAPE 3 : On envoie les données (ici via Formspree).**
+        try {
+            // J'ai décommenté l'envoi pour que ça marche directement.
+            // Remplacez l'URL par la vôtre si nécessaire.
+            await fetch('https://formspree.io/f/xeolgjgw', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    subject: `Nouvelle candidature MTIC - ${formData.nom}`,
+                    message: emailMessage
+                })
+            });
+
+            // Si l'envoi réussit, on affiche la notification et on vide le formulaire.
+            const notification = document.getElementById('notification');
+            notification.classList.add('show');
+            
+            this.reset(); // On vide le formulaire SEULEMENT après l'envoi réussi.
+
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 4000);
+
+        } catch (error) {
+            // En cas d'erreur, on prévient l'utilisateur.
+            console.error("Erreur lors de l'envoi du formulaire:", error);
+            alert("Une erreur est survenue. Veuillez réessayer.");
+        } finally {
+            // **ÉTAPE 4 : Quoi qu'il arrive (succès ou erreur), on réactive le bouton.**
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        }
+    });
+
+    // Le reste du script est inchangé...
+    document.querySelectorAll('.department-card').forEach(card => {
+        card.addEventListener('mouseenter', function () {
+            this.style.transform = 'translateY(-10px) scale(1.02)';
+        });
+
+        card.addEventListener('mouseleave', function () {
+            this.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+
+    function createFloatingElements() {
+        const hero = document.querySelector('.hero');
+        for (let i = 0; i < 5; i++) {
+            const element = document.createElement('div');
+            element.style.cssText = `
+                position: absolute;
+                width: ${Math.random() * 20 + 10}px;
+                height: ${Math.random() * 20 + 10}px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 50%;
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                animation: float ${Math.random() * 3 + 4}s ease-in-out infinite;
+                animation-delay: ${Math.random() * 2}s;
+            `;
+            hero.appendChild(element);
+        }
+    }
+    createFloatingElements();
+</script>
+</body>
+
+</html>
